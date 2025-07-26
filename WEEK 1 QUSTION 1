@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int array[100];   
+    int size = 5;     
+    int i;
+    for (i = 0; i < size; i++) {
+        array[i] = i + 1;
+    }
+    int newElement = 99;
+    array[size] = newElement;
+    size++;
+    printf("Array after insertion:\n");
+    for (i = 0; i < size; i++) {
+        printf("%d ", array[i]);
+    }
+    return 0;
+}
