@@ -1,0 +1,7 @@
+arr = [10, 20, 50, 30, 40]
+unique_sorted = sorted(set(arr), reverse=True)
+
+if len(unique_sorted) >= 2:
+    print("Second largest element is:", unique_sorted[1])
+else:
+    print("No second largest element found.")
