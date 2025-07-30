@@ -1,4 +1,0 @@
-arr = [1, 2, 3, 4, 5]
-new_element = 99
-arr.append(new_element)
-print("List after insertion:", arr)
